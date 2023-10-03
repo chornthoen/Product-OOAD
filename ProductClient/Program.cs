@@ -41,6 +41,7 @@ Viewing(repo);
 
 //Method to view products
 void Viewing(ProductRepo repo)
+
 {
     Console.WriteLine($"{"Id",-36} {"Code",-10} {"Name",-50} {"Category",-20}");
     Console.WriteLine(new string('=', 36 + 1 + 10 + 1 + 50 + 1 + 20));
